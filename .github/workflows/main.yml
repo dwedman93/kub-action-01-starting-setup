@@ -28,4 +28,4 @@ jobs:
       with:
         context: .  # Specifies the Docker context path; typically the root of the project
         push: true
-        tags: ghcr.io/${{ github.repository }}/image-name:latest
+        tags: ghcr.io/${{ github.repository }}/first-app:latest
